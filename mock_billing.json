@@ -1,0 +1,222 @@
+[
+  {
+    "month": "2025-09",
+    "service": "EC2",
+    "resource_id": "i-market-analysis-web-01",
+    "region": "ap-south-1",
+    "usage_type": "Linux/UNIX (on-demand)",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1902,
+    "desc": "Market analysis web server"
+  },
+  {
+    "month": "2025-09",
+    "service": "RDS",
+    "resource_id": "db-market-analysis-prod-01",
+    "region": "ap-south-1",
+    "usage_type": "db.t2.micro",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 380,
+    "desc": "Market analysis database (prod)"
+  },
+  {
+    "month": "2025-09",
+    "service": "S3",
+    "resource_id": "market-analysis-bucket-01",
+    "region": "ap-south-1",
+    "usage_type": "Standard Storage",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 105,
+    "desc": "Market analysis bucket"
+  },
+  {
+    "month": "2025-09",
+    "service": "CloudWatch",
+    "resource_id": "market-analysis-metric-01",
+    "region": "ap-south-1",
+    "usage_type": "Metrics",
+    "usage_quantity": 1000,
+    "unit": "units",
+    "cost_inr": 52,
+    "desc": "Market analysis metric"
+  },
+  {
+    "month": "2025-09",
+    "service": "Elastic Load Balancer",
+    "resource_id": "market-analysis-elb-01",
+    "region": "ap-south-1",
+    "usage_type": "Network Load Balancer",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 253,
+    "desc": "Market analysis load balancer"
+  },
+  {
+    "month": "2025-09",
+    "service": "Route 53",
+    "resource_id": "market-analysis-dns-01",
+    "region": "ap-south-1",
+    "usage_type": "Standard",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 126,
+    "desc": "Market analysis DNS"
+  },
+  {
+    "month": "2025-09",
+    "service": "CloudFront",
+    "resource_id": "market-analysis-cdn-01",
+    "region": "ap-south-1",
+    "usage_type": "Standard",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 190,
+    "desc": "Market analysis CDN"
+  },
+  {
+    "month": "2025-09",
+    "service": "EBS",
+    "resource_id": "market-analysis-ebs-01",
+    "region": "ap-south-1",
+    "usage_type": "gp2",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 42,
+    "desc": "Market analysis EBS"
+  },
+  {
+    "month": "2025-10",
+    "service": "EC2",
+    "resource_id": "i-market-analysis-api-02",
+    "region": "ap-south-1",
+    "usage_type": "Linux/UNIX (on-demand)",
+    "usage_quantity": 360,
+    "unit": "hours",
+    "cost_inr": 1573,
+    "desc": "Market analysis API server"
+  },
+  {
+    "month": "2025-10",
+    "service": "RDS",
+    "resource_id": "db-market-analysis-replica-01",
+    "region": "ap-south-1",
+    "usage_type": "db.t2.micro",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 629,
+    "desc": "Market analysis database (replica)"
+  },
+  {
+    "month": "2025-10",
+    "service": "S3",
+    "resource_id": "market-analysis-bucket-02",
+    "region": "ap-south-1",
+    "usage_type": "Standard Storage",
+    "usage_quantity": 150,
+    "unit": "GB",
+    "cost_inr": 262,
+    "desc": "Market analysis bucket"
+  },
+  {
+    "month": "2025-10",
+    "service": "CloudWatch",
+    "resource_id": "market-analysis-metric-02",
+    "region": "ap-south-1",
+    "usage_type": "Metrics",
+    "usage_quantity": 1200,
+    "unit": "units",
+    "cost_inr": 104,
+    "desc": "Market analysis metric"
+  },
+  {
+    "month": "2025-10",
+    "service": "Elastic Load Balancer",
+    "resource_id": "market-analysis-elb-02",
+    "region": "ap-south-1",
+    "usage_type": "Network Load Balancer",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 419,
+    "desc": "Market analysis load balancer"
+  },
+  {
+    "month": "2025-11",
+    "service": "EC2",
+    "resource_id": "i-market-analysis-web-02",
+    "region": "ap-south-1",
+    "usage_type": "Linux/UNIX (on-demand)",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 2158,
+    "desc": "Market analysis web server"
+  },
+  {
+    "month": "2025-11",
+    "service": "RDS",
+    "resource_id": "db-market-analysis-prod-02",
+    "region": "ap-south-1",
+    "usage_type": "db.t2.micro",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 431,
+    "desc": "Market analysis database (prod)"
+  },
+  {
+    "month": "2025-11",
+    "service": "S3",
+    "resource_id": "market-analysis-bucket-03",
+    "region": "ap-south-1",
+    "usage_type": "Standard Storage",
+    "usage_quantity": 200,
+    "unit": "GB",
+    "cost_inr": 239,
+    "desc": "Market analysis bucket"
+  },
+  {
+    "month": "2025-11",
+    "service": "CloudWatch",
+    "resource_id": "market-analysis-metric-03",
+    "region": "ap-south-1",
+    "usage_type": "Metrics",
+    "usage_quantity": 1500,
+    "unit": "units",
+    "cost_inr": 88,
+    "desc": "Market analysis metric"
+  },
+  {
+    "month": "2025-12",
+    "service": "EC2",
+    "resource_id": "i-market-analysis-api-03",
+    "region": "ap-south-1",
+    "usage_type": "Linux/UNIX (on-demand)",
+    "usage_quantity": 360,
+    "unit": "hours",
+    "cost_inr": 1818,
+    "desc": "Market analysis API server"
+  },
+  {
+    "month": "2025-12",
+    "service": "RDS",
+    "resource_id": "db-market-analysis-replica-02",
+    "region": "ap-south-1",
+    "usage_type": "db.t2.micro",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 727,
+    "desc": "Market analysis database (replica)"
+  },
+  {
+    "month": "2025-12",
+    "service": "S3",
+    "resource_id": "market-analysis-bucket-04",
+    "region": "ap-south-1",
+    "usage_type": "Standard Storage",
+    "usage_quantity": 250,
+    "unit": "GB",
+    "cost_inr": 505,
+    "desc": "Market analysis bucket"
+  }
+]

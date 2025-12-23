@@ -1,0 +1,13 @@
+{
+  "name": "Market Analysis Tool",
+  "budget_inr_per_month": 3000,
+  "description": "Hi, I want to build a market analysis tool for e-commerce",
+  "tech_stack": {
+    "frontend": "React",
+    "backend": "Node.js",
+    "database": "MongoDB",
+    "proxy_server": "Nginx",
+    "hosting": "AWS"
+  },
+  "non_functional_requirements": []
+}

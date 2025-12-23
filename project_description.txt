@@ -1,0 +1,4 @@
+Hi, I want to build a market analysis tool for e-commerce. The tool should track 
+the highest-selling products each month. For the front end, I am using React, for the backend 
+Node.js, and MongoDB for storing the data. I’ll use Nginx as a proxy server and AWS for hosting. 
+My monthly budget is 3000

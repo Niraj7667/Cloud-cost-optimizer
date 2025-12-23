@@ -1,0 +1,200 @@
+{
+  "project_name": "Market Analysis Tool",
+  "analysis": {
+    "total_monthly_cost": 3000.75,
+    "budget": 3000,
+    "budget_variance": 0.75,
+    "service_costs": {
+      "EC2": 1862.75,
+      "RDS": 541.75,
+      "S3": 277.75,
+      "CloudWatch": 61.0,
+      "Elastic Load Balancer": 168.0,
+      "Route 53": 31.5,
+      "CloudFront": 47.5,
+      "EBS": 10.5
+    },
+    "high_cost_services": {
+      "EC2": 1862.75,
+      "RDS": 541.75,
+      "S3": 277.75
+    },
+    "is_over_budget": true
+  },
+  "recommendations": [
+    {
+      "title": "Rightsizing EC2 Instances",
+      "service": "EC2",
+      "current_cost": 1862,
+      "potential_savings": 221,
+      "recommendation_type": "rightsizing",
+      "description": "Downsize EC2 instances to match current workload requirements.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Monitor EC2 instance utilization and identify underutilized resources",
+        "Downsize EC2 instances to match current workload requirements",
+        "Monitor and adjust instance sizes as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Migrate to DigitalOcean for Compute Resources",
+      "service": "EC2",
+      "current_cost": 1862,
+      "potential_savings": 221,
+      "recommendation_type": "alternative_provider",
+      "description": "Migrate compute resources to DigitalOcean, reducing costs and improving flexibility.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Assess current compute resource utilization and determine if DigitalOcean is suitable",
+        "Migrate compute resources to DigitalOcean, ensuring data integrity",
+        "Update application code to accommodate DigitalOcean"
+      ],
+      "cloud_providers": [
+        "DigitalOcean"
+      ]
+    },
+    {
+      "title": "Implement Reserved Instance Purchases for EC2",
+      "service": "EC2",
+      "current_cost": 1862,
+      "potential_savings": 221,
+      "recommendation_type": "rightsizing",
+      "description": "Purchase reserved instances for EC2 to reduce costs and improve resource utilization.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Assess current EC2 instance utilization and determine if reserved instances are suitable",
+        "Purchase reserved instances for EC2, ensuring data integrity",
+        "Update application code to accommodate reserved instances"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Implement Auto Scaling for EC2 Instances",
+      "service": "EC2",
+      "current_cost": 1862,
+      "potential_savings": 221,
+      "recommendation_type": "rightsizing",
+      "description": "Implement auto scaling for EC2 instances to reduce costs and improve resource utilization.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Implement auto scaling for EC2 instances, ensuring data integrity",
+        "Monitor and analyze auto scaling data to identify areas for optimization",
+        "Adjust resource utilization and costs accordingly"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Migrate MongoDB to Open-Source MongoDB",
+      "service": "MongoDB",
+      "current_cost": 541,
+      "potential_savings": 65,
+      "recommendation_type": "open_source",
+      "description": "Migrate to open-source MongoDB, reducing costs and improving flexibility.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Assess MongoDB usage and determine if open-source is suitable",
+        "Migrate to open-source MongoDB, ensuring data integrity",
+        "Update application code to accommodate open-source MongoDB"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Migrate to Azure for Database Resources",
+      "service": "RDS",
+      "current_cost": 541,
+      "potential_savings": 65,
+      "recommendation_type": "alternative_provider",
+      "description": "Migrate database resources to Azure, reducing costs and improving flexibility.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Assess current database resource utilization and determine if Azure is suitable",
+        "Migrate database resources to Azure, ensuring data integrity",
+        "Update application code to accommodate Azure"
+      ],
+      "cloud_providers": [
+        "Azure"
+      ]
+    },
+    {
+      "title": "Migrate to Wasabi for Storage Resources",
+      "service": "S3",
+      "current_cost": 277,
+      "potential_savings": 33,
+      "recommendation_type": "alternative_provider",
+      "description": "Migrate storage resources to Wasabi, reducing costs and improving flexibility.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Assess current storage resource utilization and determine if Wasabi is suitable",
+        "Migrate storage resources to Wasabi, ensuring data integrity",
+        "Update application code to accommodate Wasabi"
+      ],
+      "cloud_providers": [
+        "Wasabi"
+      ]
+    },
+    {
+      "title": "Implement Tagging and Cost Allocation",
+      "service": "General",
+      "current_cost": 0,
+      "potential_savings": 0,
+      "recommendation_type": "governance",
+      "description": "Implement tagging and cost allocation to better track costs and optimize resource utilization.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Implement tagging and cost allocation for all resources",
+        "Monitor and analyze cost allocation data to identify areas for optimization",
+        "Adjust resource utilization and costs accordingly"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Implement CloudWatch Alarms for Resource Utilization",
+      "service": "CloudWatch",
+      "current_cost": 61,
+      "potential_savings": 0,
+      "recommendation_type": "governance",
+      "description": "Implement CloudWatch alarms to monitor resource utilization and optimize costs.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Implement CloudWatch alarms for resource utilization",
+        "Monitor and analyze alarm data to identify areas for optimization",
+        "Adjust resource utilization and costs accordingly"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    }
+  ]
+}
